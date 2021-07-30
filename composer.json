@@ -1,0 +1,26 @@
+{
+   "name": "taran-ekrocx/customer-login", 
+   "description": "N/A",  
+   "type": "magento2-module",
+   "version": "1.0.0",
+   "license": [
+      "OSL-3.0",
+      "AFL-3.0" 
+   ],
+   "authors": [
+      {
+         "name": "taran",
+         "email": "taran@ekrocx.com",
+         "homepage": "https://ekrocx.com/",
+         "role": "Developer"
+      }
+   ], 
+   "autoload": { 
+      "files": [
+         "registration.php" 
+      ],
+      "psr-4": {
+         "Ekrocx\\CustomerLogin\\": ""
+      }
+   }
+}
